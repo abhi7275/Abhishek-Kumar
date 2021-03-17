@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--link css--> 
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+           <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Work</a></li>
+              <!-- <a href="#blog">Blog</a>-->
+           </ul>
+        </div>
+
+        <header>
+            <div class="container">
+        
+                <nav id ="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo3.png"  width=128 height=128 alt="">
+                        </div>
+        
+                     <div>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#work">Work</a>
+                        
+                       <!-- <a href="#blog">Blog</a>-->
+                        
+                     </div>
+                    </div>
+        
+                    <div class="right">
+                        <button class="btn btn-primary">Contact</button>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="images/1-2.png"  alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Abhishek Kumar</h6>
+                        <h1> <span>Researcher & Software Engineer</span></h1>
+                        <p>I'm a Researcher as well as a Frontend and Backend Developer.
+                            Strong in design and integration with intuitive problem-solving skills. 
+                            Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.</p>
+                            <div>
+                                <button onclick="document.location='https://drive.google.com/file/d/1TvuMwmPwChFrGPWk0H_rapI_BJZacWfg/view?usp=sharing'" class="btn btn-secondary">Download Resume</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </header>
+            <section id="about" class="about">
+                <div class="container flex items-center about-inner-wrap">
+                    <div class="flex-1">
+                        <img class="about-me-img" src="./images/me-1.png" alt="">
+                    </div>
+                    <div class="flex-1 right">
+                        <h1>About <span>Me</span></h1>
+                        <h3>Hello! I'm Abhishek Kumar</h3>
+                        <p>I am a focused college student (Master of Technology in Information Technology) currently attending the Indian Institute Of Information Technology Allahabad. 
+                            In both my academic and professional life, I have been consistently praised as quality-oriented by my professors and peers. 
+                            Whether working on academic, extracurricular, or professional projects, I apply proven problem-solving, research, and creative thinking skills, which I hope to leverage into the Software Engineer role. </p>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/abhishek-kumar-38157916a/"><img src="./images/linkedin.png" width=32 height=32 alt=""></a>
+                                <a href="https://github.com/abhi7275"><img src="./images/github.png" width=32 height=32 alt=""></a>
+                                <a href="https://www.facebook.com/abhishek.karyan/"><img src="./images/facebook.png" width=32 height=32 alt=""></a>
+                                <a href="https://www.instagram.com/abhishekaryan16/"><img src="./images/instagram.png" width=32 height=32 alt=""></a>
+        
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects">
+               <div class="container">
+                   <h1 class="section-heading"><span>My </span>Projects</h1>
+                    <p>These are my personal projects</p>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./images/scada.svg" width=82 alt="">
+                            <h2>Analysis Of Scada System</h2>
+                            <p>Ongoing India Norway Research Project on Scada System Analysis.</p>
+                            
+                            </div>
+                            <div class="card">
+                                <img src="./images/car.jpg" width=72 alt="">
+                                <h2>Road Lane Detection</h2>
+                                <p>Built Road Lane Detection project based on Research Paper (Vision-Based Road Lane Detection System for
+                                    Vehicles Guidance) using Computer Vision Algorithm.</p>
+                                
+                            </div>
+                            <div class="card">
+                                    <img src="./images/Customer-Segmentation.jpg" width=82 alt="">
+                                    <h2>Customer Segmentation</h2>
+                                    <p>Customer Segmentation using K-means Clustering Algorithm.</p>
+                                    
+                            </div>
+                            <div class="card">
+                                        <img src="./images/chat.png" width=72 alt="">
+                                        <h2>Basic Social Network</h2>
+                                        <p>Using Python Flask web framework. Developed a simple chat web application that creates a post and store in a database.</p>
+                                        
+                            </div>
+                    </div>
+               </div>   
+            </section> 
+           <!-- <section class="freelancer">
+            <h1>I am Available For Freelancing</h1>
+            <p>I am providing services to translate business requirements into technical solutions.</p>
+            <button class="btn btn-primary"> Download Resume</button> 
+            </section> 
+        
+            <section class="reviews">
+                <div class="container">
+                    <h1 class="section-heading"><span>My</span> Teams</h1>
+                    <p>I provide high standard clean website for your business solutions </p>
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="./images/lah.jpg" alt="">
+                            <p>We thank him for the wonderful job in helping us develop our program. He was professional, excellent and hard working. Thanks to him, we were able to achieve our goal on time, and we look forward to continue working with them in the future.</p>
+                            <span>Abhinav Lahariya, Software Developer</span>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/din.jpg" alt="">
+                            <p>We would like to express our satisfaction on the co-operation regarding the development of our web application. We look forward to working with him in future projects.</p>
+                            <span>Dinesh Pal, Software Developer</span>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/shre.jpg" alt="">
+                            <p>I wanted to take a moment to thank you for the services you has provided. It was pleasure to work with you, professional and timely.</p>
+                            <span>Shreink Thakkar, Software Developer</span>
+                        </div>
+                    </div>
+                    <div class="slider-dots"></div>
+                </div> -->
+        
+            </section>
+            <section id="work" class="work">
+                <div class="container">
+                    <h1 class="section-heading"><span>Services</span></h1>
+                    <p>What I do</p>
+                <div class="card-wrapper">
+                     <div class="card">
+                         <div class="overlay">
+                             <span>Category</span>
+                             <a href="#">Responsive Design</a>
+                         </div>
+                         <img src="./images/Responsive.jpg" alt="">
+                     </div>
+                     <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="./images/webdesign.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Backend Development</a>
+                        </div>
+                        <img src="./images/Backend.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Research</a>
+                        </div>
+                        <img src="./images/Research.jpg" alt="">
+                    </div>
+                    <!--<div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>-->
+                </div>
+                </div>
+            
+          <!--  </section>
+            <section id="blog" class="blog">
+                <div class="container">
+                    <h1 class="section-heading"><span>Our</span> Blog</h1>
+                    <p>Here you will get the blogs on different technology our team worked .</p>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="./images/article-ph-1.png" alt="">
+        
+                            </div>
+                            <div class="card-content">
+                                <a href="#">
+                                    <h1>First Blog</h1>
+                                </a>
+                                <span>Feb 8, 2021</span>
+                                <p>This is my first blog where I tell you about the method I used.</p>
+                                 <a href="#">Read More</a>
+                            </div>
+        
+                        </div>
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="./images/article-ph-1.png" alt="">
+        
+                            </div>
+                            <div class="card-content">
+                                <a href="#">
+                                    <h1>First Blog</h1>
+                                </a>
+                                <span>Feb 8, 2021</span>
+                                <p>This is my first blog where I tell you about the method I used.</p>
+                                 <a href="#">Read More</a>
+                            </div>
+        
+                        </div>
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="./images/article-ph-1.png" alt="">
+        
+                            </div>
+                            <div class="card-content">
+                                <a href="#">
+                                    <h1>First Blog</h1>
+                                </a>
+                                <span>Feb 8, 2021</span>
+                                <p>This is my first blog where I tell you about the method I used.</p>
+                                 <a href="#">Read More</a>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                </div> </div> -->
+        
+            </section>
+            <section class="contact">
+                <div class="container">
+                    <h1 class="section-heading">Contact<span> Me</span></h1>
+                    <p>Use any method to contact us</p>
+                     <div class="card-wrapper">
+                         <div class="card">
+                             <img src="./images/1976104.svg" width="42" alt="">
+                             <h1> Call Us On</h1>
+                             <h6>+91 7275500841</h6>
+                         </div>
+        
+                         <div class="card">
+                            <img src="./images/147563.svg" width="62" alt="">
+                            <h1> Email Us On</h1>
+                            <h6>abhishek.karyan16@gmail.com</h6>
+                        </div>
+        
+                        <div class="card">
+                            <img src="images/2126878.svg" width="42" alt="">
+                            <h1> Visit Us</h1>
+                            <h6>BH-5 Hostel IIIT Allahabad, 211015, Allahabad,UP</h6>
+                        </div>
+                     </div>
+                     <form action="mailto:abhishek.karyan16@gmail.com" method="post" enctype="text/plain">>
+                        <div class="input-wrap">
+                            <input type="text" placeholder="Your name">
+                            <input type="email" placeholder="Your email">
+           
+                        </div>
+                        <div class="input-wrap-2">
+                            <input type="text" placeholder="Your subject">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
+           
+                        </div>
+                        <div class="btn-wrapper">
+                            <button class="btn btn-primary">Send Message</button>
+                        </div>
+                     </form>
+        
+                </div>
+            </section>
+             
+            <footer>
+                <img clss="footer-logo" src="./images/logo3.png"  width=256 height=256 alt="">
+                <div class ="footer-socials">
+                    <a href="https://www.linkedin.com/in/abhishek-kumar-38157916a/"><img src="./images/linkedin.png" width=32 height=32 alt=""></a>
+                                <a href="https://github.com/abhi7275"><img src="./images/github.png" width=32 height=32 alt=""></a>
+                                <a href="https://www.facebook.com/abhishek.karyan/"><img src="./images/facebook.png" width=32 height=32 alt=""></a>
+                                <a href="https://www.instagram.com/abhishekaryan16/"><img src="./images/instagram.png" width=32 height=32 alt=""></a>
+        
+                </div>
+                <div class="Copyright">
+                    Copyright 2021 Name PSD Template. All Right Reserved.
+                </div>
+            </footer>
+
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="./js/app.js"></script>
+</body>
+</html>
